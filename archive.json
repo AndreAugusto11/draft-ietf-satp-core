@@ -1,0 +1,468 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2024-04-18T00:28:14.975907+00:00",
+  "repo": "ietf-satp/draft-ietf-satp-core",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOKkmiaM500uxD",
+      "title": "test issue",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/issues/1",
+      "state": "OPEN",
+      "author": "RafaelAPB",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "test issue #1",
+      "createdAt": "2023-10-24T19:57:47Z",
+      "updatedAt": "2023-10-24T19:57:47Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 12,
+      "id": "I_kwDOKkmiaM6E_dMA",
+      "title": "Add reference to architecture draft",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/issues/12",
+      "state": "OPEN",
+      "author": "RafaelAPB",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Add a reference to the blockchain interoperability architecture draft.\r\n\r\nRaised by Martin Gfeller <mgf=40acm.org@dmarc.ietf.org>",
+      "createdAt": "2024-04-08T13:27:03Z",
+      "updatedAt": "2024-04-08T13:27:03Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 13,
+      "id": "I_kwDOKkmiaM6E_eno",
+      "title": "Refine Client application definition",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/issues/13",
+      "state": "OPEN",
+      "author": "RafaelAPB",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Refine Client application definition.\r\n\r\nMartin Gfeller <mgf=40acm.org@dmarc.ietf.org> said \"Do we need to say what we want to achieve with the application? Simply interacting\u00a0could mean anything. As the introduction mentions only gateways, this is the first time \"application\" is used.\"\r\n\r\nWe should make it clearer that the client application implements the end-user business logic (that requires interoperability) and interacts with a gateway via API1.",
+      "createdAt": "2024-04-08T13:29:36Z",
+      "updatedAt": "2024-04-08T13:29:36Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 14,
+      "id": "I_kwDOKkmiaM6E_hww",
+      "title": "Problems raised by Martin G.",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/issues/14",
+      "state": "OPEN",
+      "author": "RafaelAPB",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fix grammar/typos/references:\r\n\r\n---\r\n\u00a0 \u00a0 Claim Type:\r\n\r\n\u00a0 \u00a0 \u00a0 \u00a0 Stipulates that JWT above is just one option. Perhaps always have \"X type\" before \"X\";\r\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0i.e., \"claim type\" before \"claim\"\r\n---\u00a0\r\n\u00a0 \u00a0 Network:\r\n\u00a0 \u00a0 \u00a0 \u00a0 Might be worthwhile to define\u00a0network.\r\n\r\n---\r\n\u00a0 \u00a0 When do we speak about SAT and when about SATP?\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0 \u00a0 \u00a0 I think the model is for the protocol, so SATP Model, not SAT Model.\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0 local gateway\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0 \u00a0 \u00a0 \"local\" is understandable, but not actually defined. As the application is defined\u00a0\r\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0to interact with a gateway, a gateway is always \"local\" from the perspective of\r\n\u00a0 \u00a0 \u00a0 \u00a0 the application.\r\n\u00a0 \u00a0 \u00a0 \u00a04.2 SAT Model\r\n\r\n\u00a0 \u00a0 When do we speak about SAT and when about SATP?\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0 \u00a0 \u00a0 I think the model is for the protocol, so SATP Model, not SAT Model.\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0 local gateway\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0 \u00a0 \u00a0 \"local\" is understandable, but not actually defined. As the application is defined\u00a0\r\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0to interact with a gateway, a gateway is always \"local\" from the perspective of\r\n\u00a0 \u00a0 \u00a0 \u00a0 the application.\r\n\r\n ---\r\n\r\n4.7.2 Message Type\r\n\r\n\u00a0 \u00a0 Inconsistent style - drop the \u00a0\"This is the \"\r\n\u00a0 \u00a0\r\n4.7.3 Digital Asset Identifier\r\n\r\n\u00a0 \u00a0 unique identifier (UUIDv2) that uniquely identifies\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0 \u00a0 \u00a0 unique, more unique, most unique? :-)\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0 application of the beneficiary\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0 \u00a0 \u00a0 This is the first time the application in NW2 is mentioned in an active role - in\u00a0\r\n\u00a0 \u00a0 \u00a0 \u00a0 the document above\u00a0this point, I understood that while the NW2 and GW2 are involved,\r\n\u00a0 \u00a0 \u00a0 \u00a0 the application of the beneficiary is not actively involved.\r\n\u00a0 \u00a0 \u00a0 \u00a0\r\n4.7.4 Session ID: (delete the \":\")\r\n\r\n\u00a0 \u00a0 \u00a0 \u00a0 Was the Context-Id introduced? Yes, but below. Somewhat circular. Same problem\r\n\u00a0 \u00a0 \u00a0 \u00a0 noted in Architecture document.\r\n\u00a0 \u00a0\r\n4.7.5 Transfer-Context ID\r\n\r\n\u00a0 \u00a0 \u00a0 \u00a0 Is the \"Sequence Number\" part of the Transfer-Context ID, or a possible implementation,\r\n\u00a0 \u00a0 \u00a0 \u00a0 or something additional?\r\n\r\n4.7.8.\u00a0 Payload Hash\r\n\r\n\u00a0 \u00a0 \u00a0 \u00a0 Is the algo to be used intentionally left open?\r\n\u00a0 \u00a0\r\n\r\n4.8 \u00a0Negotiation of Security Protocols and Parameters\r\n\r\n\u00a0 \u00a0 transfer initiation stage (Stage-0)\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0 \u00a0 \u00a0 Isn't that Stage-1, according to 4.4?\r\n\u00a0 \u00a0 \u00a0 \u00a0\r\n7-9: Stages\r\n\r\n\u00a0 \u00a0 Do we need to repeat the use of HTTP GET and POST - until the parenthetical remark\u00a0\r\n\u00a0 \u00a0 about the TLS nonce for each Stage?\r\n\u00a0 \u00a0\r\n10.2\r\n\r\n\u00a0 \u00a0 \u00a0 \u00a0 The purpose The purpose\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0 Repeated.\r\n\u00a0 \u00a0\r\n17.2 Informative References\r\n\r\n\u00a0 \u00a0 Wouldn't including references to the SATP Architecture and Use Cases documents be good?\r\n\u00a0 \u00a0\r\n\u00a0 \u00a0",
+      "createdAt": "2024-04-08T13:35:05Z",
+      "updatedAt": "2024-04-08T13:35:05Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 15,
+      "id": "I_kwDOKkmiaM6E_p4w",
+      "title": "Problems raised by Denis A.",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/issues/15",
+      "state": "OPEN",
+      "author": "RafaelAPB",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I believe UUIDv2 is too restrictive. I would suggest we mention a more technology-neutral formulation, e.g. that digital asset identifiers should be globally unique and let the implementors decide how the digital asset identifiers could be defined",
+      "createdAt": "2024-04-08T13:48:39Z",
+      "updatedAt": "2024-04-08T13:48:39Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 2,
+      "id": "PR_kwDOKkmiaM5pSQf6",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/2",
+      "state": "MERGED",
+      "author": "findthomas",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Edits following review by Wes.",
+      "createdAt": "2024-03-11T18:23:48Z",
+      "updatedAt": "2024-03-11T19:40:34Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "dc41e9ede921f5658375c327c57e63768064da28",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "findthomas-patch-1",
+      "headRefOid": "3862db7637b10b0fb23b058e60db7193efa75992",
+      "closedAt": "2024-03-11T19:40:26Z",
+      "mergedAt": "2024-03-11T19:40:26Z",
+      "mergedBy": "findthomas",
+      "mergeCommit": {
+        "oid": "f8a2e401b8028030b4bc650f0a6cf05d92234a19"
+      },
+      "comments": [
+        {
+          "author": "findthomas",
+          "authorAssociation": "COLLABORATOR",
+          "body": "2nd set of fixes.",
+          "createdAt": "2024-03-11T19:40:33Z",
+          "updatedAt": "2024-03-11T19:40:33Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOKkmiaM5pS0qx",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/3",
+      "state": "MERGED",
+      "author": "findthomas",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Added flow diagram as requested by Wes.",
+      "createdAt": "2024-03-11T19:37:33Z",
+      "updatedAt": "2024-03-11T19:40:11Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "dc41e9ede921f5658375c327c57e63768064da28",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "findthomas-patch-2",
+      "headRefOid": "a9813d08f8678882458908fc713e3950c80db9f0",
+      "closedAt": "2024-03-11T19:39:55Z",
+      "mergedAt": "2024-03-11T19:39:55Z",
+      "mergedBy": "findthomas",
+      "mergeCommit": {
+        "oid": "972cd76b4c0bf510447b8e1bbc39d3db28e2cb90"
+      },
+      "comments": [
+        {
+          "author": "findthomas",
+          "authorAssociation": "COLLABORATOR",
+          "body": "First set of fixes.",
+          "createdAt": "2024-03-11T19:40:11Z",
+          "updatedAt": "2024-03-11T19:40:11Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOKkmiaM5pZeTY",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/4",
+      "state": "MERGED",
+      "author": "findthomas",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Replaced \"phase\" with \"Stage\" to be consistent with the rest of the document and SATP-Arch (e.g. Stage-1, Stage-2, Stage-3).\r\n\r\nRemoved Section 4.5 as recommendation from Wes.  The section was mostly informative.",
+      "createdAt": "2024-03-12T15:47:55Z",
+      "updatedAt": "2024-03-12T16:43:40Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "f8a2e401b8028030b4bc650f0a6cf05d92234a19",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "findthomas-patch-3",
+      "headRefOid": "ed99bb6396d585fde1c9f3739b54142798d0ca5d",
+      "closedAt": "2024-03-12T15:49:18Z",
+      "mergedAt": "2024-03-12T15:49:18Z",
+      "mergedBy": "findthomas",
+      "mergeCommit": {
+        "oid": "780fd74ac93d6a1eae22dddcaeb0d9940898d691"
+      },
+      "comments": [
+        {
+          "author": "findthomas",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Word fixes and removal of Section 4.5.",
+          "createdAt": "2024-03-12T15:49:59Z",
+          "updatedAt": "2024-03-12T15:49:59Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOKkmiaM5zIjl-",
+          "commit": {
+            "abbreviatedOid": "ed99bb6"
+          },
+          "author": "alexchiriac",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "LGTM!",
+          "createdAt": "2024-03-12T16:43:40Z",
+          "updatedAt": "2024-03-12T16:43:40Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDOKkmiaM5qGc2G",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/5",
+      "state": "MERGED",
+      "author": "findthomas",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-03-19T14:47:49Z",
+      "updatedAt": "2024-03-19T16:34:08Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "7ba34eaf9661d8c1063a123762a707ac41edbe85",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "findthomas-patch-4",
+      "headRefOid": "90acbb5b7c7682d1c0c85d25aefe48b049112211",
+      "closedAt": "2024-03-19T16:33:42Z",
+      "mergedAt": "2024-03-19T16:33:42Z",
+      "mergedBy": "findthomas",
+      "mergeCommit": {
+        "oid": "e67c84c91ae276fc70b80734522c2b41633c00c4"
+      },
+      "comments": [
+        {
+          "author": "findthomas",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Moved text about API1 and API3 to the Appendix section.\r\n",
+          "createdAt": "2024-03-19T16:34:07Z",
+          "updatedAt": "2024-03-19T16:34:07Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOKkmiaM5qINnT",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/6",
+      "state": "MERGED",
+      "author": "findthomas",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-03-19T18:27:48Z",
+      "updatedAt": "2024-03-19T18:28:47Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "e67c84c91ae276fc70b80734522c2b41633c00c4",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "findthomas-patch-5",
+      "headRefOid": "94162eb3f230fdea0d3e3e4438781c201800dcc8",
+      "closedAt": "2024-03-19T18:28:46Z",
+      "mergedAt": "2024-03-19T18:28:46Z",
+      "mergedBy": "findthomas",
+      "mergeCommit": {
+        "oid": "d01682181b24b6db6eebad09abd6e54056aa77fc"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 7,
+      "id": "PR_kwDOKkmiaM5qOMAE",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/7",
+      "state": "CLOSED",
+      "author": "findthomas",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixed Figure 1 that was too wide.",
+      "createdAt": "2024-03-20T13:26:11Z",
+      "updatedAt": "2024-03-20T17:26:18Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "76316b0520a5c5a1670cf8f53256e41f46570657",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "findthomas-patch-6",
+      "headRefOid": "8978930dadba641debe57449860436c80167c3af",
+      "closedAt": "2024-03-20T17:26:18Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOKkmiaM5qPEQx",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/8",
+      "state": "MERGED",
+      "author": "findthomas",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Corrected Figure 1.\r\nAdded quotes to block figure area.",
+      "createdAt": "2024-03-20T15:12:01Z",
+      "updatedAt": "2024-03-20T17:26:11Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "76316b0520a5c5a1670cf8f53256e41f46570657",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "findthomas-patch-7",
+      "headRefOid": "04d90929d27b5cf91ee170071c05cb1039c7f6b9",
+      "closedAt": "2024-03-20T17:26:11Z",
+      "mergedAt": "2024-03-20T17:26:11Z",
+      "mergedBy": "RafaelAPB",
+      "mergeCommit": {
+        "oid": "9565d4a4dfbaa32a984bae105ae35c30cf059f1d"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDOKkmiaM5rLzoB",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/9",
+      "state": "MERGED",
+      "author": "findthomas",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Corrected message types.",
+      "createdAt": "2024-03-29T16:39:46Z",
+      "updatedAt": "2024-03-29T16:44:25Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "9565d4a4dfbaa32a984bae105ae35c30cf059f1d",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "findthomas-patch-8",
+      "headRefOid": "c642b4a778fcdc1543e31a5ffe3bf577a7a11941",
+      "closedAt": "2024-03-29T16:44:25Z",
+      "mergedAt": "2024-03-29T16:44:25Z",
+      "mergedBy": "findthomas",
+      "mergeCommit": {
+        "oid": "9caa9ad9bece603006b8c97b4aedd32fe0bdc90d"
+      },
+      "comments": [
+        {
+          "author": "findthomas",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Corrected SATP message types. ",
+          "createdAt": "2024-03-29T16:44:18Z",
+          "updatedAt": "2024-03-29T16:44:18Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 10,
+      "id": "PR_kwDOKkmiaM5rnMyG",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/10",
+      "state": "MERGED",
+      "author": "findthomas",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "(a) Defined the keys used by gateways (Section 4.5).\r\n\r\n(b) Removal of duplicated client pub key and server pub key in each message (when it was already shared in Stage 1).",
+      "createdAt": "2024-04-03T19:35:40Z",
+      "updatedAt": "2024-04-05T13:22:01Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "9caa9ad9bece603006b8c97b4aedd32fe0bdc90d",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "findthomas-patch-9",
+      "headRefOid": "e7773d8b685329c9310668ef45c50108fa291ac8",
+      "closedAt": "2024-04-05T13:22:01Z",
+      "mergedAt": "2024-04-05T13:22:01Z",
+      "mergedBy": "findthomas",
+      "mergeCommit": {
+        "oid": "9a8ade04e1ebf684567beb611c02e9ef908554aa"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 11,
+      "id": "PR_kwDOKkmiaM5r2OAp",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/11",
+      "state": "MERGED",
+      "author": "findthomas",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Added text in Appendix regarding API3.",
+      "createdAt": "2024-04-05T13:44:25Z",
+      "updatedAt": "2024-04-05T13:45:08Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "9a8ade04e1ebf684567beb611c02e9ef908554aa",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "findthomas-patch-10",
+      "headRefOid": "1d981e9a0c4cf461cc3861bbe4a3a5d8574e3948",
+      "closedAt": "2024-04-05T13:45:08Z",
+      "mergedAt": "2024-04-05T13:45:08Z",
+      "mergedBy": "findthomas",
+      "mergeCommit": {
+        "oid": "2e8c06735b64bbdd3ea3626361dd1c9cd1b2e3cb"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
