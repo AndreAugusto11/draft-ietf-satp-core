@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-07-11T00:32:43.358488+00:00",
+  "timestamp": "2024-07-14T00:35:59.465592+00:00",
   "repo": "ietf-satp/draft-ietf-satp-core",
   "labels": [
     {
@@ -898,6 +898,48 @@
               "updatedAt": "2024-06-20T12:56:20Z"
             }
           ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "id": "PR_kwDOKkmiaM51HQ7A",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/19",
+      "state": "MERGED",
+      "author": "davrilio",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Update figure in section 4.1. adding a dependency from client to network\r\n\r\nmodified definitions of transfer context ID and Session ID\r\n\r\nmoved sequence number definition from transfer context ID definition to Session ID definition\r\n\r\nmade transferContext a Required field in all messages",
+      "createdAt": "2024-07-11T15:37:58Z",
+      "updatedAt": "2024-07-11T18:55:43Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "ab7fc735f3b029bc380b96ca566ff8ad91da9ac1",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "davrilio-patch-1",
+      "headRefOid": "5838d1598b1cf1ccac2d63fa5d85648bc478b54b",
+      "closedAt": "2024-07-11T18:55:37Z",
+      "mergedAt": "2024-07-11T18:55:37Z",
+      "mergedBy": "findthomas",
+      "mergeCommit": {
+        "oid": "331ab22e7e2da0f081a3ac10e54fe8bb8657ec1d"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOKkmiaM6Bgc4u",
+          "commit": {
+            "abbreviatedOid": "5838d15"
+          },
+          "author": "findthomas",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-07-11T18:47:49Z",
+          "updatedAt": "2024-07-11T18:47:49Z",
+          "comments": []
         }
       ]
     }
