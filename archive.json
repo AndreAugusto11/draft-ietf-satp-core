@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-07-14T00:35:59.465592+00:00",
+  "timestamp": "2024-07-16T00:32:25.670015+00:00",
   "repo": "ietf-satp/draft-ietf-satp-core",
   "labels": [
     {
@@ -942,6 +942,49 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 20,
+      "id": "PR_kwDOKkmiaM51Ufju",
+      "title": "Update draft-ietf-satp-core.md",
+      "url": "https://github.com/ietf-satp/draft-ietf-satp-core/pull/20",
+      "state": "MERGED",
+      "author": "findthomas",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Corrected flow diagram (to match latest Architecture draft)",
+      "createdAt": "2024-07-14T15:14:22Z",
+      "updatedAt": "2024-07-14T15:18:05Z",
+      "baseRepository": "ietf-satp/draft-ietf-satp-core",
+      "baseRefName": "main",
+      "baseRefOid": "e02233b01b765e987247b4cb4812474aa90a2577",
+      "headRepository": "ietf-satp/draft-ietf-satp-core",
+      "headRefName": "findthomas-patch-11",
+      "headRefOid": "9099c9215e19e38ba844eacefab25e8ebec03bf7",
+      "closedAt": "2024-07-14T15:18:01Z",
+      "mergedAt": "2024-07-14T15:18:01Z",
+      "mergedBy": "findthomas",
+      "mergeCommit": {
+        "oid": "56a365a94709d1d16b77071fce860d11b2ae2c6c"
+      },
+      "comments": [
+        {
+          "author": "findthomas",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Corrected flow diagram (to match latest Architecture draft)",
+          "createdAt": "2024-07-14T15:14:38Z",
+          "updatedAt": "2024-07-14T15:14:38Z"
+        },
+        {
+          "author": "findthomas",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Corrected flow diagram (to match latest Architecture draft)",
+          "createdAt": "2024-07-14T15:18:04Z",
+          "updatedAt": "2024-07-14T15:18:04Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
